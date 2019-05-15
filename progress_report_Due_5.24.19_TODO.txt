@@ -1,0 +1,8 @@
+
+Due Friday May 24
+Progress report (20% Points) (4 pages): 
+Propose a model and an algorithm for tackling your task. You should describe the model and algorithm in detail and use a concrete example to demonstrate how the model and algorithm work. Don't describe methods in general; describe precisely how they apply to your problem (what are variables, factors, states, etc.)? 
+
+You should also have finished implementing a preliminary version of your algorithm (maybe it's not fully optimized yet and it doesn't have all the features you want). 
+
+Report your initial experimental results.
