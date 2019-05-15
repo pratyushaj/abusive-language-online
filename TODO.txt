@@ -1,0 +1,30 @@
+Create DAG from data (DONE)
+
+Implement Bayesian Network classifier (DONE)
+
+Write "Experimental Setup" section
+
+Write "Data Pre-processing and Statistics" section
+
+Decide what to put on poster
+
+Write Progress report (due 5/24)
+
+READ ME file for Github
+
+Hatebase API queries
+
+Look at vernacular words as a feature 
+
+Feature: words in quotes 
+
+Updating swear word count featurizer to take into consideration purposeful swear word misspellings.
+
+[EXAMPLE TASK] Evaluate feature success and share with team
+
+https://github.com/xunzheng/notears
+Implement with Davidson data set 
+
+Then we need to learn parameters
+
+Then use http://www.bayespy.org/
