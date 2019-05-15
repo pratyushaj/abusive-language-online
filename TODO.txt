@@ -8,11 +8,11 @@ Write "Data Pre-processing and Statistics" section
 
 Decide what to put on poster
 
-Write Progress report (due 5/24)
+Write Progress report (due 5/24) (ALL ----- )
 
 READ ME file for Github
 
-Hatebase API queries
+Hatebase API queries (SUSANA : create lexicon for ENglish words and done) 
 
 Look at vernacular words as a feature 
 
@@ -22,7 +22,7 @@ Updating swear word count featurizer to take into consideration purposeful swear
 
 [EXAMPLE TASK] Evaluate feature success and share with team
 
-https://github.com/xunzheng/notears
+https://github.com/xunzheng/notears (ANDY : explore if he can implement it with our code)
 Implement with Davidson data set 
 
 Then we need to learn parameters
