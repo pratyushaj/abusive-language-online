@@ -1,0 +1,70 @@
+---
+title: "lexicon"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
+output:
+  md_document:
+    toc: true      
+---
+
+```{r, echo=FALSE}
+desc <- suppressWarnings(readLines("DESCRIPTION"))
+regex <- "(^Version:\\s+)(\\d+\\.\\d+\\.\\d+)"
+loc <- grep(regex, desc)
+ver <- gsub(regex, "\\2", desc[loc])
+# verbadge <- sprintf('<a href="https://img.shields.io/badge/Version-%s-orange.svg"><img src="https://img.shields.io/badge/Version-%s-orange.svg" alt="Version"/></a></p>', ver, ver)
+verbadge <- ''
+````
+
+[![Project Status: Active - The project has reached a stable, usable state and is being actively developed.](http://www.repostatus.org/badges/0.1.0/active.svg)](http://www.repostatus.org/#active)
+[![Build Status](https://travis-ci.org/trinker/lexicon.svg?branch=master)](https://travis-ci.org/trinker/lexicon)
+[![](https://cranlogs.r-pkg.org/badges/lexicon)](https://cran.r-project.org/package=lexicon)
+`r verbadge`
+
+
+
+![](tools/lexicon_logo/r_lexicon.png)
+
+
+
+# Description
+
+**lexicon** is a collection of lexical hash tables, dictionaries, and word lists.  The data prefixes help to categorize the data types:
+
+Prefix        | Meaning
+------------- | -------------
+`key_`        | A `data.frame` with a lookup and return value
+`hash_`       | A keyed `data.table` hash table
+`freq_`       | A `data.table` of terms with frequencies
+`profanity_`  | A profane words `vector` 
+`pos_`        | A part of speech `vector`
+`pos_df_`     | A part of speech `data.frame`
+`sw_`         | A stopword `vector`
+
+
+
+# Data
+
+```{r, echo=FALSE}
+pacman::p_load(pander, lexicon)
+dat <- available_data()
+pander::set.alignment('left')
+pander(dat, style = "grid")
+```
+
+# Installation
+
+To download the development version of **lexicon**:
+
+Download the [zip ball](https://github.com/trinker/lexicon/zipball/master) or [tar ball](https://github.com/trinker/lexicon/tarball/master), decompress and run `R CMD INSTALL` on it, or use the **pacman** package to install the development version:
+
+```r
+if (!require("pacman")) install.packages("pacman")
+pacman::p_load_gh("trinker/lexicon")
+```
+
+# Contact
+
+You are welcome to:    
+- submit suggestions and bug-reports at: <https://github.com/trinker/lexicon/issues>    
+- send a pull request on: <https://github.com/trinker/lexicon/>    
+- compose a friendly e-mail to: <tyler.rinker@gmail.com>    
