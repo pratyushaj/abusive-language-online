@@ -1,0 +1,6 @@
+[submodule "utility/notears/cppext/eigen-git-mirror"]
+	path = utility/notears/cppext/eigen-git-mirror
+	url = https://github.com/eigenteam/eigen-git-mirror.git
+[submodule "utility/notears/eigen-git-mirror"]
+	path = utility/notears/eigen-git-mirror
+	url = https://github.com/eigenteam/eigen-git-mirror.git
