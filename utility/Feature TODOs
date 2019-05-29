@@ -1,31 +1,31 @@
-1. Swear word count DONE \\ \\
-2. Misspelling Count DONE \\ \\
-3. Has mention  DONE \\ \\
-4. Is retweet  \\ \\
-5.  Has hashtag DONE \\ \\
-6. Hashtag count DONE \\ \\
-7. More than half uppercase letters DONE \\ \\
-8. Has more than one consecutive punctuation mark DONE \\ \\
-9. Contains emojis NOT DONE!\\ \\
-10. More second/third person pronouns than first person  \\ \\
-11. First word is a third person pronoun  \\ \\
-12. More negative than positive words based on lexicon of sentiment words \\ \\
-13. No positive words \\ \\
-14. Contains HateBase word \\ \\
-15. Contains a URL \\ \\
-16. Disagreement in label judgment \\ \\
-17. Nonalphanumeric characters in string \\ \\
-18. The score of the Hatebase word \\ \\
+1. Swear word count DONE
+2. Misspelling Count DONE 
+3. Has mention  DONE
+4. Is retweet DONE
+5.  Has hashtag DONE
+6. Hashtag count DONE
+7. More than half uppercase letters DONE
+8. Has more than one consecutive punctuation mark DONE 
+9. Contains emojis
+10. More second/third person pronouns than first person DONE
+11. First word is a third person pronoun DONE
+12. More negative than positive words based on lexicon of sentiment words DONE
+13. No positive words DONE
+14. Contains HateBase word
+15. Contains a URL DONE
+16. Disagreement in label judgment 
+17. Nonalphanumeric characters in string DONE
+18. The score of the Hatebase word 
 19. Using Hatebase categories, get contextual
-information from the tweet if the word fits one of the categories: is about class\\ \\
-20. is about disability\\ \\ 
-21. is about ethnicity\\ \\
-22. is about gender\\ \\
-23. is about nationality\\ \\
-24. is about religion\\ \\
-25. is about sexual orientation\\ \\ 
-26. is in the "profanity\_racist" lexicon\\ \\
-27. emoji sentiment\\ \\
-28. slang sentiment \\ \\
-29. Number of emojis \\ \\
-30. Number of mentions 
+information from the tweet if the word fits one of the categories: is about class
+20. is about disability
+21. is about ethnicity
+22. is about gender
+23. is about nationality
+24. is about religion
+25. is about sexual orientation
+26. is in the "profanity\_racist" lexicon
+27. emoji sentiment
+28. slang sentiment
+29. Number of emojis
+30. Number of mentions DONE 
