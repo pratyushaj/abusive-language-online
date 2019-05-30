@@ -1,0 +1,85 @@
+Package: lexicon
+Title: Lexicons for Text Analysis
+Version: 1.3.0
+Maintainer: Tyler Rinker <tyler.rinker@gmail.com>
+Description: A collection of lexical hash tables, dictionaries, and word lists.
+Depends: R (>= 3.2.2)
+Imports: data.table, syuzhet (>= 1.0.1)
+Authors@R: c( person("Tyler", "Rinker", email = "tyler.rinker@gmail.com", role = c("aut", "cre", "cph")), person("University of Notre
+              Dame", role = c('dtc', "cph")), person("Department of Knowledge Technologies", role = c('dtc', "cph")),
+              person("Unicode, Inc.", role = c('dtc', "cph")), person("John", "Higgins", role = c('dtc', "cph")), person("Grady",
+              "Ward", role = c('dtc')), person("Heiko", "Possel", role = c('dtc')), person("Michal Boleslav", "Mechura", role =
+              c('dtc', "cph")), person("Bing", "Liu", role = c('dtc')), person("Minqing", "Hu", role = c('dtc')), person("Saif M.",
+              "Mohammad", role = c('dtc')), person("Peter", "Turney", role = c('dtc')), person("Erik", "Cambria", role = c('dtc')),
+              person('Soujanya', 'Poria', role = c('dtc')), person('Rajiv', 'Bajpai', role = c('dtc')), person("Bjoern", "Schuller",
+              role = c('dtc')), person("SentiWordNet", role = c('dtc', "cph")), person("Liang", "Wu", role = c('dtc', "cph")),
+              person("Fred", "Morstatter", role = c('dtc', "cph")), person("Huan", "Liu", role = c('dtc', "cph")), person("Grammar
+              Revolution", role = c('dtc', "cph")), person("Vidar", "Holen", role = c('dtc', "cph")), person("Alejandro U.",
+              "Alvarez", role = c('dtc', "cph")), person("Stackoverflow User user2592414", role = c('dtc', "cph")),
+              person("BannedWordList.com", role = c('dtc', "cph")), person("Apache Software Foundation", role = c('dtc', "cph")),
+              person("Andrew Kachites", "McCallum", role = c('dtc', "cph")), person("Alireza", "Savand", role = c('dtc', "cph")),
+              person("Zact", 'Anger', role = c('dtc', "cph")), person("Titus", "Wormer", role = c('dtc', "cph")), 
+              person("Colin", "Martindale", role = c('dtc', "cph")), person("John", "Wiseman", role = c('dtc', "cph")),
+              person("Nadra", "Pencle", role = c('dtc', "cph")), person("Irina", "Malaescu", role = c('dtc', "cph"))
+              )
+License: GPL-3
+LazyData: TRUE
+Encoding: UTF-8
+Roxygen: list(wrap = FALSE)
+RoxygenNote: 6.1.1
+BugReports: https://github.com/trinker/lexicon/issues?state=open
+URL: https://github.com/trinker/lexicon
+Collate: 
+    'available_data.R'
+    'cliches.R'
+    'common_names.R'
+    'constraining_loughran_mcdonald.R'
+    'freq_first_names.R'
+    'freq_last_names.R'
+    'function_words.R'
+    'grady_augmented.R'
+    'hash_emoticons.R'
+    'hash_grady_pos.R'
+    'hash_internet_slang.R'
+    'hash_lemmas.R'
+    'hash_nrc_emotion.R'
+    'hash_sentiment_emojis.R'
+    'hash_sentiment_huliu.R'
+    'utils.R'
+    'hash_sentiment_jockers.R'
+    'hash_sentiment_jockers_rinker.R'
+    'hash_sentiment_loughran_mcdonald.R'
+    'hash_sentiment_nrc.R'
+    'hash_sentiment_senticnet.R'
+    'hash_sentiment_sentiword.R'
+    'hash_sentiment_slangsd.R'
+    'hash_sentiment_socal_google.R'
+    'hash_valence_shifters.R'
+    'key_contractions.R'
+    'key_corporate_social_responsibility.R'
+    'key_grade.R'
+    'key_ratings.R'
+    'key_regressive_imagery.R'
+    'lexicon-package.R'
+    'modal_loughran_mcdonald.R'
+    'nrc_emotions.R'
+    'pos_action_verb.R'
+    'pos_df_irregular_nouns.R'
+    'pos_df_pronouns.R'
+    'pos_interjections.R'
+    'pos_preposition.R'
+    'profanity_alvarez.R'
+    'profanity_arr_bad.R'
+    'profanity_banned.R'
+    'profanity_racist.R'
+    'profanity_zac_anger.R'
+    'sw_dolch.R'
+    'sw_fry_100.R'
+    'sw_fry_1000.R'
+    'sw_fry_200.R'
+    'sw_fry_25.R'
+    'sw_jockers.R'
+    'sw_loughran_mcdonald.R'
+    'sw_lucene.R'
+    'sw_mallet.R'
+    'sw_python.R'

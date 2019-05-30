@@ -6,3 +6,5 @@ Propose a model and an algorithm for tackling your task. You should describe the
 You should also have finished implementing a preliminary version of your algorithm (maybe it's not fully optimized yet and it doesn't have all the features you want). 
 
 Report your initial experimental results.
+
+Pratyusha - Section 4 (Data Preprocessing and statistics)
