@@ -11,19 +11,19 @@
 11. First word is a third person pronoun DONE
 12. More negative than positive words based on lexicon of sentiment words DONE
 13. No positive words DONE
-14. Contains HateBase word - Susana
+14. Contains HateBase word - DONE
 15. Contains a URL DONE
 16. Disagreement in label judgment - Andy
 17. Nonalphanumeric characters in string DONE
 18. The score of the Hatebase word - Susana
 19. Using Hatebase categories, get contextual
-information from the tweet if the word fits one of the categories: is about class - Susana
-20. is about disability - Susana
-21. is about ethnicity - Susana
-22. is about gender - Susana
-23. is about nationality - Susana
-24. is about religion - Susana
-25. is about sexual orientation - Susana
+information from the tweet if the word fits one of the categories: is about class - DONE
+20. is about disability - DONE
+21. is about ethnicity - DONE
+22. is about gender - DONE
+23. is about nationality - DONE
+24. is about religion - DONE
+25. is about sexual orientation - DONE
 26. is in the "profanity\_racist" lexicon - Susana
 27. emoji sentiment - Derek
 28. slang sentiment - Tru
