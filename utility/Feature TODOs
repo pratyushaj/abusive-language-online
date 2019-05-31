@@ -6,7 +6,7 @@
 6. Hashtag count DONE
 7. More than half uppercase letters DONE
 8. Has more than one consecutive punctuation mark DONE 
-9. Contains emojis - Derek
+9. Contains emojis - We have count but can easily turn it into contains tomorrow - Susana
 10. More second/third person pronouns than first person DONE
 11. First word is a third person pronoun DONE
 12. More negative than positive words based on lexicon of sentiment words DONE
@@ -15,17 +15,20 @@
 15. Contains a URL DONE
 16. Disagreement in label judgment - Andy
 17. Nonalphanumeric characters in string DONE
-18. The score of the Hatebase word - Susana
-19. Using Hatebase categories, get contextual
-information from the tweet if the word fits one of the categories: is about class - DONE
+18. The score of the Hatebase word - REPLACE w/ Emoji Positive sentiment DONE
+19. Using Hatebase categories, get contextual information from the tweet if the word fits one of the categories: is about class - DONE
 20. is about disability - DONE
 21. is about ethnicity - DONE
 22. is about gender - DONE
 23. is about nationality - DONE
 24. is about religion - DONE
 25. is about sexual orientation - DONE
-26. is in the "profanity\_racist" lexicon - Susana
-27. emoji sentiment - Derek
+26. "profanity" lexicon count - DONE
+27. emoji overall sentiment - DONE
 28. slang sentiment - Tru
-29. Number of emojis - Derek
+29. Number of emojis - DONE
 30. Number of mentions DONE 
+31. Emoji Neutral sentiment DONE
+32. Emoji Negative sentiment DONE
+33. Emoji highest sentiment (need to tweak once I connect with Andy) - Susana
+34. "racist" lexicon count - DONE (may want to change to isRacist as it's very sparse) 
