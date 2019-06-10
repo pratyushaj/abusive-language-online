@@ -8,3 +8,5 @@ https://github.com/t-davidson/hate-speech-and-offensive-language
 
 Error Analysis: test_BN_missed_ErrorAnalysis.numbers
 
+Final paper: ../paper/CS_221_Final_Paper.pdf
+
